@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFREEGLUT_EXPORTS -DFREEGLUT_STATIC -DGLUT_DISABLE_ATEXIT_HACK -D_CRT_SECURE_NO_WARNINGS -I/home/cqq/Desktop/liquidfun/Box2D/Testbed/../../../freeglut/include  -g   -o CMakeFiles/Testbed.dir/Framework/Main.o -c /home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/Main.cpp",
+  "file": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/Main.cpp"
+},
+{
+  "directory": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFREEGLUT_EXPORTS -DFREEGLUT_STATIC -DGLUT_DISABLE_ATEXIT_HACK -D_CRT_SECURE_NO_WARNINGS -I/home/cqq/Desktop/liquidfun/Box2D/Testbed/../../../freeglut/include  -g   -o CMakeFiles/Testbed.dir/Framework/Render.o -c /home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/Render.cpp",
+  "file": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/Render.cpp"
+},
+{
+  "directory": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFREEGLUT_EXPORTS -DFREEGLUT_STATIC -DGLUT_DISABLE_ATEXIT_HACK -D_CRT_SECURE_NO_WARNINGS -I/home/cqq/Desktop/liquidfun/Box2D/Testbed/../../../freeglut/include  -g   -o CMakeFiles/Testbed.dir/Framework/Test.o -c /home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/Test.cpp",
+  "file": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/Test.cpp"
+},
+{
+  "directory": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFREEGLUT_EXPORTS -DFREEGLUT_STATIC -DGLUT_DISABLE_ATEXIT_HACK -D_CRT_SECURE_NO_WARNINGS -I/home/cqq/Desktop/liquidfun/Box2D/Testbed/../../../freeglut/include  -g   -o CMakeFiles/Testbed.dir/Framework/Arrow.o -c /home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/Arrow.cpp",
+  "file": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/Arrow.cpp"
+},
+{
+  "directory": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFREEGLUT_EXPORTS -DFREEGLUT_STATIC -DGLUT_DISABLE_ATEXIT_HACK -D_CRT_SECURE_NO_WARNINGS -I/home/cqq/Desktop/liquidfun/Box2D/Testbed/../../../freeglut/include  -g   -o CMakeFiles/Testbed.dir/Framework/FullscreenUI.o -c /home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/FullscreenUI.cpp",
+  "file": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/FullscreenUI.cpp"
+},
+{
+  "directory": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFREEGLUT_EXPORTS -DFREEGLUT_STATIC -DGLUT_DISABLE_ATEXIT_HACK -D_CRT_SECURE_NO_WARNINGS -I/home/cqq/Desktop/liquidfun/Box2D/Testbed/../../../freeglut/include  -g   -o CMakeFiles/Testbed.dir/Framework/ParticleParameter.o -c /home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/ParticleParameter.cpp",
+  "file": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/Framework/ParticleParameter.cpp"
+},
+{
+  "directory": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFREEGLUT_EXPORTS -DFREEGLUT_STATIC -DGLUT_DISABLE_ATEXIT_HACK -D_CRT_SECURE_NO_WARNINGS -I/home/cqq/Desktop/liquidfun/Box2D/Testbed/../../../freeglut/include  -g   -o CMakeFiles/Testbed.dir/Tests/TestEntries.o -c /home/cqq/Desktop/liquidfun/Box2D/Testbed/Tests/TestEntries.cpp",
+  "file": "/home/cqq/Desktop/liquidfun/Box2D/Testbed/Tests/TestEntries.cpp"
+}
+]

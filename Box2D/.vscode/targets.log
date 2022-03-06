@@ -1,0 +1,867 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jun 26 09:59:08 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = a4
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/cqq/Desktop/liquidfun/Box2D
+# makefile (from 'Makefile', line 39)
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 45)
+RM = /usr/bin/cmake -E remove -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b475c8051e44470192b4d0d6d26919c5.zh-cn","_translationsConfigFile":"/home/cqq/.config/Code/clp/b475c8051e44470192b4d0d6d26919c5.zh-cn/tcf.json","_cacheRoot":"/home/cqq/.config/Code/clp/b475c8051e44470192b4d0d6d26919c5.zh-cn","_resolvedLanguagePackCoreLocation":"/home/cqq/.config/Code/clp/b475c8051e44470192b4d0d6d26919c5.zh-cn/3c4e3df9e89829dce27b7b5c24508306b151f30d","_corruptedFile":"/home/cqq/.config/Code/clp/b475c8051e44470192b4d0d6d26919c5.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:34012
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 54)
+CMAKE_BINARY_DIR = /home/cqq/Desktop/liquidfun/Box2D
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = cqq
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 1284
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/cqq
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/cqq-VirtualBox:@/tmp/.ICE-unix/1555,unix/cqq-VirtualBox:/tmp/.ICE-unix/1555
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=5d3fcfd5-f164-4fed-98b2-999fd35c8dfa&iid=5d3fcfd5-f164-4fed-98b2-999fd35c8dfa&sid=5d3fcfd5-f164-4fed-98b2-999fd35c8dfa","uploadToServer":true}
+# environment
+INVOCATION_ID = 413aaaae62e54e35b0a00e2abb6b28e1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4731
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/cqq/Desktop/liquidfun/Box2D
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1502
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/cqq
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = cqq
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 48)
+EQUALS = =
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = zh_CN.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a59e7d03-3bfc-4f84-886b-e4bfdeb15e4a.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = cqq
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := default_target
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 51)
+CMAKE_SOURCE_DIR = /home/cqq/Desktop/liquidfun/Box2D
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /home/cqq/.config/Code/CachedData/3c4e3df9e89829dce27b7b5c24508306b151f30d
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-1dd0cc9f-1.55.2-main.sock
+# makefile
+MAKEFLAGS = pqrRs
+# environment
+MFLAGS = -pqrRs
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/cqq/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+LC_PAPER = zh_CN.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'Makefile', line 42)
+CMAKE_COMMAND = /usr/bin/cmake
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 21)
+SUFFIXES = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 4731
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=22/148=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 526775): 38 files, no impossibilities.
+
+# 38 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.hpux_make_needs_suffix_list:
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+list_install_components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 97):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+
+HelloWorldTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 398):
+	$(MAKE) -f CMakeFiles/Makefile2 HelloWorldTests
+
+install/local: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 73):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+
+ 
+IntrusiveListTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 411):
+	$(MAKE) -f CMakeFiles/Makefile2 IntrusiveListTests
+
+freeglut: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 190):
+	$(MAKE) -f CMakeFiles/Makefile2 freeglut
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 118):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+
+Box2D: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 164):
+	$(MAKE) -f CMakeFiles/Makefile2 Box2D
+
+TrackedBlockTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 260):
+	$(MAKE) -f Unittests/CMakeFiles/TrackedBlockTests.dir/build.make Unittests/CMakeFiles/TrackedBlockTests.dir/build
+
+CallbackTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 273):
+	$(MAKE) -f Unittests/CMakeFiles/CallbackTests.dir/build.make Unittests/CMakeFiles/CallbackTests.dir/build
+
+BlockAllocatorTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 281):
+	$(MAKE) -f CMakeFiles/Makefile2 BlockAllocatorTests
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 129):
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles 0
+
+Testbed/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 221):
+	$(MAKE) -f Testbed/CMakeFiles/Testbed.dir/build.make Testbed/CMakeFiles/Testbed.dir/build
+
+.PHONY: default_target cmake_force install/strip install/strip/fast install/local install/local/fast install install/fast list_install_components list_install_components/fast rebuild_cache rebuild_cache/fast edit_cache edit_cache/fast all clean clean/fast preinstall preinstall/fast depend Box2D Box2D/fast freeglut_static freeglut_static/fast freeglut freeglut/fast glui glui/fast Testbed Testbed/fast gtest_main gtest_main/fast gtest gtest/fast TrackedBlockTests TrackedBlockTests/fast CallbackTests CallbackTests/fast BlockAllocatorTests BlockAllocatorTests/fast FreeListTests FreeListTests/fast ColorTests ColorTests/fast CommonTests CommonTests/fast ConfinementTests ConfinementTests/fast BodyContactsTests BodyContactsTests/fast ConservationTests ConservationTests/fast FunctionTests FunctionTests/fast SlabAllocatorTests SlabAllocatorTests/fast HelloWorldTests HelloWorldTests/fast IntrusiveListTests IntrusiveListTests/fast help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ColorTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 312):
+	$(MAKE) -f Unittests/CMakeFiles/ColorTests.dir/build.make Unittests/CMakeFiles/ColorTests.dir/build
+
+freeglut_static: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 177):
+	$(MAKE) -f CMakeFiles/Makefile2 freeglut_static
+
+ConfinementTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 338):
+	$(MAKE) -f Unittests/CMakeFiles/ConfinementTests.dir/build.make Unittests/CMakeFiles/ConfinementTests.dir/build
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 151):
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+
+FunctionTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 377):
+	$(MAKE) -f Unittests/CMakeFiles/FunctionTests.dir/build.make Unittests/CMakeFiles/FunctionTests.dir/build
+
+.SUFFIXES: .hpux_make_needs_suffix_list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-22 18:41:16.614560918
+#  File has been updated.
+#  Successfully updated.
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gtest_main/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 234):
+	$(MAKE) -f googletest/CMakeFiles/gtest_main.dir/build.make googletest/CMakeFiles/gtest_main.dir/build
+
+FreeListTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 299):
+	$(MAKE) -f Unittests/CMakeFiles/FreeListTests.dir/build.make Unittests/CMakeFiles/FreeListTests.dir/build
+
+ConservationTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 364):
+	$(MAKE) -f Unittests/CMakeFiles/ConservationTests.dir/build.make Unittests/CMakeFiles/ConservationTests.dir/build
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+TrackedBlockTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 255):
+	$(MAKE) -f CMakeFiles/Makefile2 TrackedBlockTests
+
+Testbed: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 216):
+	$(MAKE) -f CMakeFiles/Makefile2 Testbed
+
+CallbackTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 268):
+	$(MAKE) -f CMakeFiles/Makefile2 CallbackTests
+
+install/strip/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 67):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+
+cmake_check_build_system:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cmake_check_build_system
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/14=21%
+#  recipe to execute (from 'Makefile', line 462):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+
+ColorTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 307):
+	$(MAKE) -f CMakeFiles/Makefile2 ColorTests
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 421):
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... Box2D"
+	@echo "... freeglut_static"
+	@echo "... freeglut"
+	@echo "... glui"
+	@echo "... Testbed"
+	@echo "... gtest_main"
+	@echo "... gtest"
+	@echo "... TrackedBlockTests"
+	@echo "... CallbackTests"
+	@echo "... BlockAllocatorTests"
+	@echo "... FreeListTests"
+	@echo "... ColorTests"
+	@echo "... CommonTests"
+	@echo "... ConfinementTests"
+	@echo "... BodyContactsTests"
+	@echo "... ConservationTests"
+	@echo "... FunctionTests"
+	@echo "... SlabAllocatorTests"
+	@echo "... HelloWorldTests"
+	@echo "... IntrusiveListTests"
+
+CommonTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 325):
+ 
+	$(MAKE) -f Unittests/CMakeFiles/CommonTests.dir/build.make Unittests/CMakeFiles/CommonTests.dir/build
+
+ConfinementTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 333):
+	$(MAKE) -f CMakeFiles/Makefile2 ConfinementTests
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 146):
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+
+SlabAllocatorTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 390):
+	$(MAKE) -f Unittests/CMakeFiles/SlabAllocatorTests.dir/build.make Unittests/CMakeFiles/SlabAllocatorTests.dir/build
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 156):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+
+FunctionTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 372):
+	$(MAKE) -f CMakeFiles/Makefile2 FunctionTests
+
+BodyContactsTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 351):
+	$(MAKE) -f Unittests/CMakeFiles/BodyContactsTests.dir/build.make Unittests/CMakeFiles/BodyContactsTests.dir/build
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+gtest/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 247):
+	$(MAKE) -f googletest/CMakeFiles/gtest.dir/build.make googletest/CMakeFiles/gtest.dir/build
+
+gtest_main: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 229):
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+
+FreeListTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 294):
+	$(MAKE) -f CMakeFiles/Makefile2 FreeListTests
+
+ConservationTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 359):
+	$(MAKE) -f CMakeFiles/Makefile2 ConservationTests
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 136):
+	$(MAKE) -f CMakeFiles/Makefile2 clean
+
+install/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 91):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install/strip: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+
+list_install_components/fast: list_install_components
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+HelloWorldTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 403):
+	$(MAKE) -f Unittests/CMakeFiles/HelloWorldTests.dir/build.make Unittests/CMakeFiles/HelloWorldTests.dir/build
+
+install/local/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 79):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+
+freeglut/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 195):
+	$(MAKE) -f freeglut/CMakeFiles/freeglut.dir/build.make freeglut/CMakeFiles/freeglut.dir/build
+
+BlockAllocatorTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 286):
+	$(MAKE) -f Unittests/CMakeFiles/BlockAllocatorTests.dir/build.make Unittests/CMakeFiles/BlockAllocatorTests.dir/build
+
+SlabAllocatorTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 385):
+	$(MAKE) -f CMakeFiles/Makefile2 SlabAllocatorTests
+
+Box2D/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 169):
+	$(MAKE) -f Box2D/CMakeFiles/Box2D.dir/build.make Box2D/CMakeFiles/Box2D.dir/build
+
+glui/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 208):
+	$(MAKE) -f glui/CMakeFiles/glui.dir/build.make glui/CMakeFiles/glui.dir/build
+
+freeglut_static/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 182):
+	$(MAKE) -f freeglut/CMakeFiles/freeglut_static.dir/build.make freeglut/CMakeFiles/freeglut_static.dir/build
+
+BodyContactsTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 346):
+	$(MAKE) -f CMakeFiles/Makefile2 BodyContactsTests
+
+# Not a target:
+.hpux_make_needs_suffix_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+IntrusiveListTests/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 416):
+	$(MAKE) -f Unittests/CMakeFiles/IntrusiveListTests.dir/build.make Unittests/CMakeFiles/IntrusiveListTests.dir/build
+
+gtest: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 242):
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+
+CommonTests: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 320):
+	$(MAKE) -f CMakeFiles/Makefile2 CommonTests
+
+glui: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 203):
+	$(MAKE) -f CMakeFiles/Makefile2 glui
+
+install: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 85):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 107):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+# files hash-table stats:
+# Load=69/1024=7%, Rehash=0, Collisions=9/243=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 105 / storage = 1480 B / avg = 14 B
+# current buf: size = 8162 B / used = 1480 B / count = 105 / avg = 14 B
+
+# strcache performance: lookups = 401 / hit rate = 73%
+# hash-table stats:
+ 
+# Load=105/8192=1%, Rehash=0, Collisions=5/401=1%
+# Finished Make data base on Sat Jun 26 09:59:08 2021
+
+ 

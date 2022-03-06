@@ -1,0 +1,1 @@
+/usr/bin/g++   -Wall -Werror -Wno-long-long -Wno-variadic-macros -g -DDEBUG=1  -rdynamic CMakeFiles/ConfinementTests.dir/Confinement/ConfinementTests.cpp.o CMakeFiles/ConfinementTests.dir/BodyTracker.cpp.o  -o Debug/ConfinementTests  ../googletest/Debug/libgtest.a ../Box2D/Debug/libliquidfun.a -lpthread -lrt 

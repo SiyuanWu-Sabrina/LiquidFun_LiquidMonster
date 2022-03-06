@@ -1,0 +1,200 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Unittests/Debug/FreeListTests"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"cxx_executable_with_flags",
+			"test_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/cqq/Desktop/googletest/cmake/internal_utils.cmake",
+			"Unittests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 66,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 176,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Werror -Wno-long-long -Wno-variadic-macros -g -DDEBUG=1  "
+				},
+				{
+					"fragment" : " -Wall -Werror -Wno-long-long -Wno-variadic-macros -Wall  -DGTEST_HAS_PTHREAD=1 -fexceptions"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "LIQUIDFUN_EXTERNAL_LANGUAGE_API=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LIQUIDFUN_UNIT_TESTS=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/cqq/Desktop/liquidfun/Box2D/Unittests/../../../googletest/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/cqq/Desktop/liquidfun/Box2D/Unittests"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/cqq/Desktop/liquidfun/Box2D/Unittests/.."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Box2D::@4e44ab8d3e653a9f9565"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "gtest::@b3026ea3adfb7c2366ee"
+		}
+	],
+	"id" : "FreeListTests::@f25fd9307d07c33b27e8",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -Werror -Wno-long-long -Wno-variadic-macros -g -DDEBUG=1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../googletest/Debug/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../Box2D/Debug/libliquidfun.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "FreeListTests",
+	"nameOnDisk" : "FreeListTests",
+	"paths" : 
+	{
+		"build" : "Unittests",
+		"source" : "Unittests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Unittests/FreeList/FreeListTests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Unittests/BodyTracker.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

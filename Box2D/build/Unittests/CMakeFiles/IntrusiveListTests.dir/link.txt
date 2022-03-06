@@ -1,0 +1,1 @@
+/usr/bin/g++   -Wall -Werror -Wno-long-long -Wno-variadic-macros -g -DDEBUG=1  -rdynamic CMakeFiles/IntrusiveListTests.dir/IntrusiveList/IntrusiveListTests.cpp.o CMakeFiles/IntrusiveListTests.dir/BodyTracker.cpp.o  -o Debug/IntrusiveListTests  ../googletest/Debug/libgtest.a ../Box2D/Debug/libliquidfun.a -lpthread -lrt 

@@ -1,0 +1,1 @@
+/usr/bin/g++   -Wall -Werror -Wno-long-long -Wno-variadic-macros -g -DDEBUG=1  -rdynamic CMakeFiles/ColorTests.dir/Color/ColorTests.cpp.o CMakeFiles/ColorTests.dir/BodyTracker.cpp.o  -o Debug/ColorTests  ../googletest/Debug/libgtest.a ../Box2D/Debug/libliquidfun.a -lpthread -lrt 

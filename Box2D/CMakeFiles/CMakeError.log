@@ -1,0 +1,140 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_525d2/fast && /usr/bin/make -f CMakeFiles/cmTC_525d2.dir/build.make CMakeFiles/cmTC_525d2.dir/build
+make[1]: Entering directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_525d2.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_525d2.dir/src.c.o   -c /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_525d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_525d2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_525d2.dir/src.c.o  -o cmTC_525d2 
+/usr/bin/ld: CMakeFiles/cmTC_525d2.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_525d2.dir/build.make:87: cmTC_525d2] Error 1
+make[1]: Leaving directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_525d2/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e51f0/fast && /usr/bin/make -f CMakeFiles/cmTC_e51f0.dir/build.make CMakeFiles/cmTC_e51f0.dir/build
+make[1]: Entering directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e51f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e51f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e51f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e51f0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e51f0.dir/CheckFunctionExists.c.o  -o cmTC_e51f0  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e51f0.dir/build.make:87: cmTC_e51f0] Error 1
+make[1]: Leaving directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e51f0/fast] Error 2
+
+
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_01d29/fast && /usr/bin/make -f CMakeFiles/cmTC_01d29.dir/build.make CMakeFiles/cmTC_01d29.dir/build
+make[1]: Entering directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01d29.dir/HAVE_USBHID_H.c.o
+/usr/bin/cc   -DDEBUG=0 -Wall -Werror -Wno-long-long -Wno-variadic-macros -Wall    -o CMakeFiles/cmTC_01d29.dir/HAVE_USBHID_H.c.o   -c /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CheckIncludeFiles/HAVE_USBHID_H.c
+/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CheckIncludeFiles/HAVE_USBHID_H.c:2:10: fatal error: usbhid.h: No such file or directory
+    2 | #include <usbhid.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_01d29.dir/build.make:66: CMakeFiles/cmTC_01d29.dir/HAVE_USBHID_H.c.o] Error 1
+make[1]: Leaving directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_01d29/fast] Error 2
+
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function vfprintf exists failed with the following output:
+Change Dir: /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38a41/fast && /usr/bin/make -f CMakeFiles/cmTC_38a41.dir/build.make CMakeFiles/cmTC_38a41.dir/build
+make[1]: Entering directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38a41.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DDEBUG=0 -Wall -Werror -Wno-long-long -Wno-variadic-macros -Wall -DCHECK_FUNCTION_EXISTS=vfprintf   -o CMakeFiles/cmTC_38a41.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: error: conflicting types for built-in function ‘vfprintf’; expected ‘int(void *, const char *, __va_list_tag *)’ [-Werror=builtin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘vfprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+cc1: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTC_38a41.dir/build.make:66: CMakeFiles/cmTC_38a41.dir/CheckFunctionExists.c.o] Error 1
+make[1]: Leaving directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_38a41/fast] Error 2
+
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93485/fast && /usr/bin/make -f CMakeFiles/cmTC_93485.dir/build.make CMakeFiles/cmTC_93485.dir/build
+make[1]: Entering directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93485.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DDEBUG=0 -Wall -Werror -Wno-long-long -Wno-variadic-macros -Wall -DCHECK_FUNCTION_EXISTS=_doprnt   -o CMakeFiles/cmTC_93485.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93485.dir/link.txt --verbose=1
+/usr/bin/cc  -DDEBUG=0 -Wall -Werror -Wno-long-long -Wno-variadic-macros -Wall -DCHECK_FUNCTION_EXISTS=_doprnt    -rdynamic CMakeFiles/cmTC_93485.dir/CheckFunctionExists.c.o  -o cmTC_93485  -lm 
+/usr/bin/ld: CMakeFiles/cmTC_93485.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `_doprnt'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_93485.dir/build.make:87: cmTC_93485] Error 1
+make[1]: Leaving directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_93485/fast] Error 2
+
+
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: /home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b4307/fast && /usr/bin/make -f CMakeFiles/cmTC_b4307.dir/build.make CMakeFiles/cmTC_b4307.dir/build
+make[1]: Entering directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4307.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DDEBUG=0 -Wall -Werror -Wno-long-long -Wno-variadic-macros -Wall -DCHECK_FUNCTION_EXISTS=XParseGeometry   -o CMakeFiles/cmTC_b4307.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b4307
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4307.dir/link.txt --verbose=1
+/usr/bin/cc  -DDEBUG=0 -Wall -Werror -Wno-long-long -Wno-variadic-macros -Wall -DCHECK_FUNCTION_EXISTS=XParseGeometry    -rdynamic CMakeFiles/cmTC_b4307.dir/CheckFunctionExists.c.o  -o cmTC_b4307  -lm 
+/usr/bin/ld: CMakeFiles/cmTC_b4307.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `XParseGeometry'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b4307.dir/build.make:87: cmTC_b4307] Error 1
+make[1]: Leaving directory '/home/cqq/Desktop/liquidfun/Box2D/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b4307/fast] Error 2
+
+
+

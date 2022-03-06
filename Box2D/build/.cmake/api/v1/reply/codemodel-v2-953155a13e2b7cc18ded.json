@@ -1,0 +1,371 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Box2D",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Box2D",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "HelloWorld",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "HelloWorld",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/cqq/Desktop/freeglut",
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"build" : "glui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "glui",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "Testbed",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Testbed",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "googletest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/home/cqq/Desktop/googletest",
+					"targetIndexes" : 
+					[
+						19,
+						20
+					]
+				},
+				{
+					"build" : "Unittests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Unittests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11,
+						12,
+						13,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						7
+					],
+					"name" : "Box2D",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "BlockAllocatorTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-BlockAllocatorTests-Debug-93d1ee5fdf1954859c89.json",
+					"name" : "BlockAllocatorTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "BodyContactsTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-BodyContactsTests-Debug-7ff23b0f8b7c5582746f.json",
+					"name" : "BodyContactsTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Box2D::@4e44ab8d3e653a9f9565",
+					"jsonFile" : "target-Box2D-Debug-7b0d17c2a53797725122.json",
+					"name" : "Box2D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CallbackTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-CallbackTests-Debug-a1ca830ea7442c6231d4.json",
+					"name" : "CallbackTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ColorTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-ColorTests-Debug-ad145a510828101ae8c7.json",
+					"name" : "ColorTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CommonTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-CommonTests-Debug-9dae9a8e4aa3c5dee65c.json",
+					"name" : "CommonTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ConfinementTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-ConfinementTests-Debug-d0ab73018048c3ecb2f0.json",
+					"name" : "ConfinementTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ConservationTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-ConservationTests-Debug-034d3e44004643dd3ed7.json",
+					"name" : "ConservationTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "FreeListTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-FreeListTests-Debug-ff9fd2c0026114bfe9db.json",
+					"name" : "FreeListTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "FunctionTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-FunctionTests-Debug-e069ca80eb398ed37a80.json",
+					"name" : "FunctionTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "HelloWorld::@964b398ecd55793d8ca9",
+					"jsonFile" : "target-HelloWorld-Debug-b7160739e22b8429118c.json",
+					"name" : "HelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "HelloWorldTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-HelloWorldTests-Debug-1307fe38d23e0723593b.json",
+					"name" : "HelloWorldTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "IntrusiveListTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-IntrusiveListTests-Debug-13bafb98733500bf97b5.json",
+					"name" : "IntrusiveListTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "SlabAllocatorTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-SlabAllocatorTests-Debug-fe9f5ca1f7248469a0fc.json",
+					"name" : "SlabAllocatorTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Testbed::@e4f84473a6d8005a98cc",
+					"jsonFile" : "target-Testbed-Debug-bc5d5f653ab97b0d09d9.json",
+					"name" : "Testbed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "TrackedBlockTests::@f25fd9307d07c33b27e8",
+					"jsonFile" : "target-TrackedBlockTests-Debug-bd2c5dd1bc6a2da47aa7.json",
+					"name" : "TrackedBlockTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-Debug-747dc10db76c5b80aa96.json",
+					"name" : "freeglut",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-Debug-d2316b5e37139012b57f.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glui::@9ca21a3b331efc0a1b4a",
+					"jsonFile" : "target-glui-Debug-1afce4c4581f4870a54f.json",
+					"name" : "glui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-gtest-Debug-96ebc69b389109ea3f4d.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@b3026ea3adfb7c2366ee",
+					"jsonFile" : "target-gtest_main-Debug-4ece2acedd1c7087cf54.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cqq/Desktop/liquidfun/Box2D/build",
+		"source" : "/home/cqq/Desktop/liquidfun/Box2D"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
